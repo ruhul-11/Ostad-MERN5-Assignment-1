@@ -1,0 +1,40 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+.banner{
+    height: 100vh;
+    background: url(../images/banner-2.jpg) left top no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    display: flex;
+}
+
+  
+  
+  
+  

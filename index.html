@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Assignment</title>
+
+    <!--Bootstrap CSS Link-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!--Custom CSS File Link-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Navbar Markup-->
+    <nav class="navbar navbar-expand-lg bg-black">
+        <div class="container">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-light active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    
+    <!--Hero Markup-->
+    <div class="banner">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-6 text-left">
+                    <div class="card-filter px-3 mx-auto">
+                        <form class="form-control">
+                          <div class="input-wrapper">
+                            <label style="cursor: pointer;" for="ageInput" class="fw-bold">Enter your age to see the result:</label>
+                          <input id="userAgeInput" type="number" placeholder="age" class="form-control border-dark mt-3">
+                          <div id="alert-show-box"></div>
+                          </div>
+                        </form>
+                      </div>
+                </div>
+                <div id="cardsContainerID" class="cardsContainerClass my-5">
+                    <div class="row">
+                      <div class="col-md-6 col-6">
+                        <div class="card">
+                          <img src="./images/child_square.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">You are Child</h5>
+                            <p class="card-text">You can not see the inner contents.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-6">
+                        <div class="card">
+                          <img src="./images/man_square.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">You are Adult</h5>
+                            <p class="card-text">You can access to all contents</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+   </div>
+
+
+    <!-- footer area start -->
+    <footer class="bg-dark py-5">
+        <div class="container">
+          <p class="text-center text-light mb-0">
+            &copy; All rights reserved.
+          </p>
+        </div>
+      </footer>
+      <!-- footer area start -->
+    
+
+
+
+    <!--Bootstrap JS Link-->
+    <script src="js/bootstrap.bundle.js"></script>
+    <!-- Custom Javascript Link -->
+    <script src="js/script.js"></script>
+</body>
+</html>
